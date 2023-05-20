@@ -225,3 +225,24 @@ console.log(32)*/
 // 2nd parameter means the length x.replace("Hello", "World"); x.toUpperCase(); x.toLowerCase(); x.concat ("1", "2"); x.trim(); 
 //links 
 //https://www.w3schools.com/jsref/jsref_obj_string.asp //https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String
+
+//Booleans
+
+// var loon = 10 > 20;
+// var loon2 = 10 < 20;
+// console.log(loon,loon2);
+// console.log(Boolean(loon));
+// x = "Bangladesh";
+// x = 10/"H";
+// console.log(x);
+
+// Array
+
+// var countries = ["Bangladesh", "USA","UK"];
+// countries[1] = "Rakib",
+// countries[0] = 20,
+// countries[3] = 30,
+// countries[countries.length] = 'Rony',
+// countries.push("Jony"),
+// countries.pop(),
+// console.log(countries);
