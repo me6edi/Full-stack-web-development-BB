@@ -246,3 +246,22 @@ console.log(32)*/
 // countries.push("Jony"),
 // countries.pop(),
 // console.log(countries);
+
+// var numbers = [];
+// numbers[0] = 10;
+// numbers[1] = 20;
+// numbers[2] = 30;
+// numbers.push(256);
+// numbers.unshift("rony");
+// console.log(numbers);
+
+// var x = "Bangladesh";
+// var y = x.split("");
+// // var y = x.split("n");
+// console.log(y);
+// console.log(x.toString());\\
+
+// var test = ["Bangladesh", "USA", "UK","Japanese","gramany","Thailand","China"];
+// var value = test.sort();
+// var value = test.reverse();
+// console.log(value);
