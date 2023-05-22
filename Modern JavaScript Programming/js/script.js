@@ -265,3 +265,20 @@ console.log(32)*/
 // var value = test.sort();
 // var value = test.reverse();
 // console.log(value);
+
+// objects
+
+// var students = {name: "John",age:22, hometown: "Dhaka"};
+// console.log(students["name"]);
+// students["occupation"] = "Developers";
+// console.log(students.age);
+// students.village = "Kurigram";
+// delete students.age;
+// console.log(students);
+// let a = students = {};
+// a.name = "Mehedi Amin"
+// console.log(a);
+
+// var array = [10,12,["a","b",["Word1","Word2"]],8,9];
+// var array = [10,12,["a","b",["Word1","Word2",{name:"Robin",age:"21"}]],8,9];
+// console.log(array[2][2][2].name);
