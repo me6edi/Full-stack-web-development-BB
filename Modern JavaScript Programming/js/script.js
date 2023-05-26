@@ -13,7 +13,8 @@ console.log(32)*/
 // document.write(x);
 // console.log(x);
 
-// Variable Declaration
+
+/*========== Variable Declaration ========== */
 
 // var myName;
 // myName = "Mehedi Amin";
@@ -73,7 +74,9 @@ console.log(32)*/
 // const a = 2;
 // console.log(a)
 
-// Operator
+/*========== End variable ========== */
+
+/*========== Operator ========== */
 // Binary operator work tow operand
 // arithmetic operator +,-,*,/,%
 
@@ -84,7 +87,9 @@ console.log(32)*/
 // document.write("<br>",a*b);
 // document.write("<br>",a**b);
 
-// increment operator and dicremnt operator a++ or ++a or --a or a--
+/*========== End Operator ========== */
+
+/*========== increment operator and dicremnt operator a++ or ++a or --a or a-- ========== */
 // var a = 20;
 // var b = 30;
 // a++;
@@ -107,7 +112,9 @@ console.log(32)*/
 // var a = (5-3) * 5 / 7;
 // console.log(a)
 
-// String operator
+/*========== End ========== */
+
+/*========== String operator ========== */
 
 // var  line1 = "Hello";
 // var  line2 = "World";
@@ -282,3 +289,52 @@ console.log(32)*/
 // var array = [10,12,["a","b",["Word1","Word2"]],8,9];
 // var array = [10,12,["a","b",["Word1","Word2",{name:"Robin",age:"21"}]],8,9];
 // console.log(array[2][2][2].name);
+
+// var c = "abc"/10;
+// console.log(c);
+
+// Primitive Types
+// number, string, boolean
+// defferent address
+
+// let a = 7;
+// let b = a;
+// a = 45;
+// console.log(b);
+
+// Reference Types
+// array, object
+// same address
+
+// let numbers = [1, 2, 3, 4, 5];
+// let newNumbers = numbers;
+
+// console.log(newNumbers);
+// numbers[1] = 500;
+// console.log(numbers);
+// console.log(newNumbers);
+// let value = 65 + "100";
+// console.log(value);
+
+// let a = true;
+// console.log(a);
+
+// Template literals (ES6)
+// Backtick
+// console.log("First line \n second line");
+// console.log(`First line second line`);
+// let age = 36;
+// console.log("His age is " + age);
+// console.log(`His age is ${age}`);
+
+// let name =  "Mehedi Amin";
+// let age = 23;
+// let dob = "21 june, 1999";
+// console.log(`His name is ${name}
+// His age is ${age}
+// His age is ${dob}
+// `);
+
+// let a = 20;
+// let b = 30;
+// console.log(`The result is: ${a} + ${b} = ${a + b}`);
