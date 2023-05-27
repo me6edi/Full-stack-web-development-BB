@@ -135,7 +135,9 @@ console.log(32)*/
 // var d = "20";
 // console.log(c+d);
 
-// Comparison operators
+/*========== End ========== */
+
+/*========== Comparison operators ========== */
 
 // var a = 20;
 // var b = 30;
@@ -157,29 +159,38 @@ console.log(32)*/
 // var d = (5<4)
 // console.log(d)
 
+/*========== End ========== */
+
+/*========== Logical Operator ========== */
+
 //logical operators ||,&&,!
 // (4>6) || (1<7)
 // (4>6) && (1<7)
 
-//conditional operators
+/*========== End ========== */
+
+/*========== Conditional operators ========== */
 
 // var  a = (1>8) ? "Hello":"World";
 
 // console.log(a);
 
-//Assignment Operator
+/*========== End ========== */
+
+/*========== Assignment Operator ========== */
+
 // var a = 20;
 // a += 12;
 // console.log(a);
-
 // var a = prompt("Inputa a number: ");
 // var b = 9/5*a + 32
 // var d = parseFloat(b.toFixed(2))
 // window.alert("Fahrenheit: " + d + " Degree" );
 // console.log("Task Complete");
 
+/*========== End ========== */
 
-// Different Types of Data type
+/*========== Different Types of Data type ========== */
 
 // var x = 2030;
 // var v = 35;
@@ -198,8 +209,9 @@ console.log(32)*/
 // console.log(y)
 // console.log(x)
 
+/*========== End ========== */
 
-// number
+/*========== Numbere ========== */
 
 // var x = 180;
 // y = isNan(x);
@@ -218,8 +230,9 @@ console.log(32)*/
 //https://www.w3schools.com/jsref/jsref_obj_number.asp
 //https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Number
 
+/*========== End ========== */
 
-// Strings
+/*========== Strings ========== */
 
 // "Hello World" 'Hello World' "Hello " World" "Hello World" "Hello n World" 'Hello ' World' 'Hello t World'
 //Concatenation "Hello" + "World" var x = "Hello World"; 
@@ -233,7 +246,7 @@ console.log(32)*/
 //links 
 //https://www.w3schools.com/jsref/jsref_obj_string.asp //https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String
 
-//Booleans
+/*========== Booleans ========== */
 
 // var loon = 10 > 20;
 // var loon2 = 10 < 20;
@@ -243,7 +256,9 @@ console.log(32)*/
 // x = 10/"H";
 // console.log(x);
 
-// Array
+/*========== End ========== */
+
+/*========== Array ========== */
 
 // var countries = ["Bangladesh", "USA","UK"];
 // countries[1] = "Rakib",
@@ -273,7 +288,9 @@ console.log(32)*/
 // var value = test.reverse();
 // console.log(value);
 
-// objects
+/*========== End ========== */
+
+/*========== objects ========== */
 
 // var students = {name: "John",age:22, hometown: "Dhaka"};
 // console.log(students["name"]);
@@ -293,7 +310,8 @@ console.log(32)*/
 // var c = "abc"/10;
 // console.log(c);
 
-// Primitive Types
+/*========== Primitive Types ========== */
+
 // number, string, boolean
 // defferent address
 
@@ -301,6 +319,10 @@ console.log(32)*/
 // let b = a;
 // a = 45;
 // console.log(b);
+
+/*========== End ========== */
+
+/*========== Reference Types ========== */
 
 // Reference Types
 // array, object
@@ -315,11 +337,12 @@ console.log(32)*/
 // console.log(newNumbers);
 // let value = 65 + "100";
 // console.log(value);
-
 // let a = true;
 // console.log(a);
 
-// Template literals (ES6)
+/*========== Template literals ========== */
+
+//  (ES6)
 // Backtick
 // console.log("First line \n second line");
 // console.log(`First line second line`);
@@ -338,3 +361,48 @@ console.log(32)*/
 // let a = 20;
 // let b = 30;
 // console.log(`The result is: ${a} + ${b} = ${a + b}`);
+
+/*========== End ========== */
+
+/*========== Control Flow ========== */
+// IF statemnt
+// if(true){
+//     console.log("If Statement Executed Success");
+// }else{
+//     console.log("If Statement Executed Failed");
+// }
+// console.log("End of if Statement!")
+
+// var age = prompt();
+
+// if (age >= 50){
+//     console.log("old!");
+// } else if(age < 50 && age >= 30){
+//     console.log("Under 50 but above 30");
+// } else if(age < 30 && age >= 18){
+//     console.log("Under 30 but above or equal to 30");
+// } else if( age < 18 && age > 0){
+//     console.log("under 18!");
+// }
+// else{
+//     console.log("Invalid Input!");
+// }
+
+/*========== End ========== */
+
+// Fint the largest number
+
+// var n1 = prompt("First number: ");
+// var n2 = prompt("Second number: ");
+// var n3 = prompt("Third number: ");
+
+// n1 = parseInt(n1);
+// n2 = parseInt(n2);
+// n3 = parseInt(n3);
+
+// if(n1 >= n2 && n1 >= n3){
+//     console.log(n1 + " is the largest number!");
+// }
+// else if(n2 >= n1 && n2 >= n3){
+//     console.log(n2 + " is not the largest number!");
+// }
