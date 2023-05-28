@@ -53,5 +53,27 @@
 # my_list = []
 # my_list2 = []
 
+# print(id(my_list))
+# print(id(my_list2))
+
 # print(my_list == my_list2)
 # print(my_list is my_list2)
+
+# value1 = 20
+# value2 = 30
+
+# print(id(value1))
+# print(id(value2))
+# print(value1 == value2)
+# print(value1 is value2)
+
+# This is comments
+# Single line comments
+
+# This is a single line comment
+
+# Multiline comments
+"""
+This is a multiline comment
+"""
+
