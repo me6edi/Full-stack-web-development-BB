@@ -390,19 +390,33 @@ console.log(32)*/
 
 /*========== End ========== */
 
-// Fint the largest number
-
-// var n1 = prompt("First number: ");
-// var n2 = prompt("Second number: ");
-// var n3 = prompt("Third number: ");
-
-// n1 = parseInt(n1);
-// n2 = parseInt(n2);
-// n3 = parseInt(n3);
+/*========== Find the largest number ========== */
+// var n1 = parseInt(prompt("First number: "));
+// var n2 = parseInt(prompt("Second number: "));
+// var n3 = parseInt(prompt("Third number: "));
 
 // if(n1 >= n2 && n1 >= n3){
-//     console.log(n1 + " is the largest number!");
+//     console.log(n1 + " is the largest number")
+// }else if(n2 >= n1 && n2 >= n3){
+//     console.log(n2 + " is the largest number")
 // }
-// else if(n2 >= n1 && n2 >= n3){
-//     console.log(n2 + " is not the largest number!");
+// else{
+
+//     console.log(n3 + " is the largest number")
 // }
+
+// if(n1 >= n2){
+//     if(n1 >= n3){
+//         console.log(n1 + " is the largest number");
+//     }else{
+//         console.log(n3 + " is the largest number");
+//     }
+
+// } else{
+//     if(n2 >= n3){
+//         console.log(n2 + " is the largest number");           
+// }else{
+//     console.log(n3 + " is the largest number");
+// }
+// }
+/*========== End ========== */

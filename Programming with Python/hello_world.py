@@ -73,7 +73,15 @@
 # This is a single line comment
 
 # Multiline comments
-"""
-This is a multiline comment
-"""
+# """
+# This is a multiline comment
+# """
 
+# myCars = ["bmw","audi","toyota"]
+# print(myCars)
+
+# car_models = ["bmw","audi","toyota", 1,2,3.45, ["1", "2","2"]]
+countries = ["Bangladesh", "India", "USA","China"]
+print(countries[-1])
+countries[0] = "Japan"
+print(countries)
