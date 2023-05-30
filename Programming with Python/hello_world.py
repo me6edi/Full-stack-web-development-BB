@@ -81,7 +81,13 @@
 # print(myCars)
 
 # car_models = ["bmw","audi","toyota", 1,2,3.45, ["1", "2","2"]]
-countries = ["Bangladesh", "India", "USA","China"]
-print(countries[-1])
-countries[0] = "Japan"
-print(countries)
+
+
+# countries = ["Bangladesh", "India", "USA","China"]
+# print(countries[-1])
+# countries[0] = "Norway"
+# countries[1] = "Germany"
+# countries.pop()
+# print(countries)
+
+# remove_item = fruits.pop()
