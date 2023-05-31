@@ -462,3 +462,18 @@ console.log(32)*/
 
 // console.log(text);
 
+
+// let num = prompt("What is your number?");
+
+// if(num >= 80){
+//     console.log("Your Grade: A+");
+// }else if(num >= 70){
+//     console.log("Your Grade: A");
+// }else if(num >=  60){
+//     console.log("Your Grade: B+");
+// }else if(num >=  50){
+//     console.log("Your Grade: B");
+// }else{
+//     console.log("Invalid Number");
+// }
+
