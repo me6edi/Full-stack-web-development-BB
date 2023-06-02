@@ -531,3 +531,101 @@ console.log(32)*/
 // }
 // console.log(grade);
 
+// JavaScript Arithmetic using if and else
+
+// console.log("Select \n1.Addition\n2.Subtract \n3.Multiply  \n4.Divide ");
+
+// number1 = parseInt(prompt("Enter First number"));
+// number2 = parseInt(prompt("Enter second number"));
+// choose = parseInt(prompt("Select a number"));
+// let value;
+// if(choose == 1) {
+//     Addition = number1 + number2;
+//     // console.log(Addition);
+//     console.log(`Addition: ${number1} + ${number2} = ` + Addition);
+// }else if(choose == 2){
+//     Subtraction = number1 - number2;
+//     console.log(`Subtraction: ${number1} - ${number2} = ` + Subtraction);
+// }else if(choose == 3){
+//     Multiplication = number1 * number2;
+//     console.log(`Multiplication: ${number1} * ${number2} = ` + Multiplication);
+// }else if(choose == 4){
+//     Division = number1 / number2;
+//     console.log(`Division: ${number1} / ${number2} = ` + Division);
+// }else{
+//     console.log("Invalid Input");
+// }
+
+// JavaScript Arithmetic switch
+
+// console.log("Select \n1.Addition\n2.Subtract \n3.Multiply  \n4.Divide ");
+
+// number1 = parseInt(prompt("Enter First number"));
+// number2 = parseInt(prompt("Enter second number"));
+// choose = parseInt(prompt("Select a number"));
+// let value;
+// switch(choose){
+
+//     case 1:
+//         Addition = number1 + number2;
+//         console.log(`Addition: ${number1} + ${number2} = ` + Addition);
+//         break;
+//     case 2:
+//         Subtraction = number1 - number2;
+//         console.log(`Subtraction: ${number1} - ${number2} = ` + Subtraction);
+//         break;
+//     case 3:
+//         Multiplication = number1 * number2;
+//         console.log(`Multiplication: ${number1} * ${number2} = ` + Multiplication);
+//         break;
+//     case 4:
+//         Division = number1 / number2;
+//         console.log(`Division: ${number1} / ${number2} = ` + Division);
+//         break;
+//     default:
+//         console.log("Invalid Input");
+//         break;
+// }
+
+// console.log("Select an Option: n1. Add n2. Subtractn3. Mulitply n4. Divide");
+
+// var num1 = prompt("Enter First Number: ");
+// var num2 = prompt("Enter Second Number: ");
+// var option = prompt("Choose an operation: ");
+// var result = null;
+
+// num1 = parseInt(num1);
+// num2 = parseInt(num2);
+// option = parseInt(option);
+
+// var num1Con = isNaN(num1);
+// var num2Con = isNaN(num2);
+// var optionCon = isNaN(option);
+
+// if (num1Con || num2Con || optionCon) {
+//     console.log("Invalid Input!");
+// } else {
+//     switch (option) {
+//         case 1:
+//             result = num1 + num2;
+//             break;
+//         case 2:
+//             result = num1 - num2;
+//             break;
+//         case 3:
+//             result = num1 * num2;
+//             break;
+//         case 4:
+//             result = num1 / num2;
+//             break;
+//         default:
+//             break;
+//     }
+
+//     if (result == null) {
+//         console.log("No Result!");
+//     }
+//     else {
+//         console.log("Result: " + result);
+//     }
+// } 
