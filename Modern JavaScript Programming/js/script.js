@@ -421,6 +421,8 @@ console.log(32)*/
 // }
 /*========== End ========== */
 
+
+
 /*========== Switch ========== */
 // console.log("Select an option:\n. Option 1 \nb. Option 2 \nc. Option 3 ");
 
@@ -629,3 +631,41 @@ console.log(32)*/
 //         console.log("Result: " + result);
 //     }
 // } 
+/*========== End ========== */
+
+
+/*========== Loop ========== */
+// while (true){
+//     console.log("Hello World!");
+// }
+
+// var i = 1;
+// while(i <= 5){
+//     console.log("Value of i: " + i);
+//     i++;
+// }
+
+// var i = 1;
+// do {
+//     console.log("Value of i: " + i);
+//     i++;
+// }while(i <= 5);
+
+// var i = 1;
+// while(i <= 10) {
+//     if(i == 4) {
+//     console.log("Value of i: " + i);
+//     }
+//     console.log(i);
+//     i++;
+// }
+// let i = 1;
+// let sum = 0;
+// let product = 0;
+// while(i <= 10) {
+//     sum = sum + i;
+//     product = sum * i;
+//     i++;
+// }
+// console.log(sum);
+// console.log(product);
