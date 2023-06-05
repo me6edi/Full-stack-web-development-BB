@@ -669,3 +669,41 @@ console.log(32)*/
 // }
 // console.log(sum);
 // console.log(product);
+
+// for loop 
+
+// for (let i = 1; i <= 5; i++) {
+//     console.log("Hello world!" + i);
+// }
+
+// for (let i = 5; i >= 1; i--) {
+//     console.log("Hello", + i)
+// }
+
+// for loop break and continue
+
+// for (i = 1; i <= 5; i++) {
+//     if(i == 3) {
+//         break;
+//     }
+//     console.log(i);
+// }
+
+// for (var i = 1; i <= 10; i++){
+//     if(i % 2 == 1) {
+//         continue;
+//     }
+//     console.log(i);
+// }
+
+// for loop using string and array
+let value = "Mehedi Amin"
+// console.log(value.length);
+// console.log(value[0]);
+
+for (var i = 0; i <= 10; i++) {
+    if (i == 6){
+        continue;
+    }
+    console.log(`index ${i}` + " = " ,value[i]);
+}
