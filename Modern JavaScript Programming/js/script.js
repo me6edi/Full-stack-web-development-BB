@@ -697,13 +697,116 @@ console.log(32)*/
 // }
 
 // for loop using string and array
-let value = "Mehedi Amin"
+// let value = "Mehedi Amin"
 // console.log(value.length);
 // console.log(value[0]);
 
-for (var i = 0; i <= 10; i++) {
-    if (i == 6){
-        continue;
-    }
-    console.log(`index ${i}` + " = " ,value[i]);
-}
+// for (var i = 0; i <= 10; i++) {
+//     if (i == 6){
+//         continue;
+//     }
+//     console.log(`index ${i}` + " = " ,value[i]);
+// }
+
+// let person = {
+//     name: "Mehedi",
+//     profession: "Cricketer",
+//     team: "Bangladesh",
+//     age: 36
+// }
+// we will get index
+// for (var x in person) {
+//     console.log(x);
+// }
+// we will get items
+// for(var y of person) {
+//     console.log(y);
+// }
+
+// var n = parseInt(prompt());
+
+// var sum = 0;
+// var serise = "";
+
+// for (var i = 1; i <= n; i++) {
+
+//     sum = sum +  i*i;
+//     serise += (i**2).toString();
+//     if(i == n){
+//         continue;
+//     }
+//     serise += " + "
+
+// }
+
+// console.log(`Result: ${serise} = ${sum}`);
+
+
+// function
+
+// function myfunction(){
+//     console.log("Hello world!");
+// }
+// myfunction();
+
+// function perameter
+// function SaySomething(fname,lname) {
+//     console.log(fname,lname);
+// }
+// let firstname = "Mehedi";
+// let lastname = "Amin";
+// SaySomething(firstname, lastname);
+
+// function myValue(fnumber,lnumber) {
+//     return fnumber + lnumber;
+// }
+
+// // console.log(myValue(50,50));
+// let num = myValue(50,50)
+// console.log(num);
+
+// FUnction parameter/argument
+
+// function saySomenthing(fname = "Fazle", lname = "Rahat") {
+//     console.log(`Hello ${ fname } ${ lname }!`);
+// }
+
+// //alert("Hello");
+// //let val = "Simanta";
+// let firstname = "Simanta";
+// let lastname = "Paul";
+
+// saySomenthing(firstname, lastname);
+
+
+// function addNum(a=0, b=0) {
+//     console.log(a+b);
+// }
+
+// addNum(4,5);
+// addNum(3.6, 2.3)
+
+
+// // Normal Declarations
+// function myFuncation(name){
+//     console.log(name);
+// }
+// myFuncation("Mehedi");
+// // Function Expression
+
+// let saySomenthing = function(name){
+//     console.log(name);
+// }
+// saySomenthing("Amin");
+
+// Arrow function (ES6)
+
+// let saySomenthing2 = (value) => {
+//     console.log("I am in arrow function");
+//     console.log(value);
+// }
+
+// saySomenthing2("Mehedi Amin");
+
+
+
