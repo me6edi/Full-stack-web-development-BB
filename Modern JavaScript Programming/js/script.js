@@ -808,5 +808,97 @@ console.log(32)*/
 
 // saySomenthing2("Mehedi Amin");
 
+// Oject Method
+
+// let person ={
+//     firstname: "Mehedi",
+//     lastname: "Amin",
+//     dob: "9-10-1998",
+
+//     fullname: function() {
+//         return `${this.firstname} ${this.lastname}`
+//     }
+// }
+// console.log(person.firstname);
+// console.log(person.fullname());
+
+ // Math Object
+
+// let val;
+// val = Math.PI;
+// val = Math.E;
+// val = Math.round(3.7);
+// val = Math.ceil(1.9);
+// val = Math.floor(1.9);
+// val = Math.sqrt(81);
+// val = Math.abs(-8); 
+// val = Math.min(1, 8, -8, 1, 0);
+// val = Math.max(1, 8, -8, 1, 0);
+// val = Math.random();
+// val = Math.random() * 100 + 1;
+// val = Math.floor(Math.random() * 100 + 1);
+// console.log(val);
 
 
+// Date object
+
+// let val; 
+// let today = new Date();
+// let birthday = new Date('1999-08-01');
+// birthday = new Date('08/01/1997');
+
+// val = today;
+// val = today.toString();
+
+// val = birthday;
+
+// val = today.getMonth(); // Start from 0
+// val = today.getDate();
+// val = today.getDay();
+// val = today.getFullYear();
+// val = today.getHours();
+// val = today.getMinutes();
+// val = today.getSeconds();
+// val = today.getMilliseconds();
+// val = today.getTime();
+
+// // console.log(val);
+// birthday.setMonth(0);
+// birthday.setDate(12);
+// birthday.setFullYear(1996);
+// birthday.setHours(3);
+// console.log(birthday)
+
+
+// Global scope
+
+// var a = 1;
+// let b = 2;
+// const c  = 3;
+// var d = 10;
+
+// console.log(`Golobal Scope: `, a, b, c);
+
+// function test(){
+//     var a = 4;
+//     let b = 5;
+//     const c = 6;
+//     console.log('Function Scope: ', a, b, c,d);
+// }
+
+// test();
+
+// if (true){
+//     var a = 7;
+//     let b = 8;
+//     const c = 9;
+//     console.log("IF Scope: ", a, b, c);
+// }
+
+// console.log("Global Scope: ", a, b, c);
+
+// for(var a = 0; a < 10; a++){
+//     console.log("Global Scope: ", a)
+// }
+
+// console.log("Global Scope: ", a, b, c);
