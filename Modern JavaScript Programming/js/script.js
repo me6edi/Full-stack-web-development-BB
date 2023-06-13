@@ -1045,9 +1045,9 @@ console.log(32)*/
 
 // }
 
-// let person1 = new Person("Fazle", "Rahat", 11-13-1988); 
-// let person2 = new Person("Moinul", "Islam", 02-11-1991);
-// let person3 = new Person("Rony", "Chy", 01-17-1492);
+// let person1 = new Person("Fazle", "Rahat", "1996-02-23"); 
+// let person2 = new Person("Moinul", "Islam", "1999-06-26");
+// let person3 = new Person("Rony", "Chy", "1997-07-09");
 
 // console.log(person1.calculateAge());
 // console.log(person2.calculateAge());
