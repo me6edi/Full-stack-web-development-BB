@@ -939,55 +939,21 @@ console.log(32)*/
 // console.log(person2.fullname());
 // console.log(person3.fullname()); 
 
-// Sub Class
-// Inheritance
-
-// class Person { //Base Class
-//     constructor(fname, lname) {
-//         this.firstname = fname;
-//         this.lastname = lname;
-//     }
-
-//     greeting() {
-//         return `Hello ${this.firstname} ${this.lastname}!`;
-//     }
-// }
-
-// class Customer extends Person { //Sub Class
-//     constructor(fname, lname, phone, memberShip) {
-//         super(fname, lname);
-
-//         this.phone = phone;
-//         this.memberShip = memberShip;
-//     }
-
-//     fullname() {
-//         console.log(this.firstname, this.lastname);
-//     }
-// }
-
-// let person1 = new Person("Fazle", "Rahat");
-// console.log(person1);
-// console.log(person1.greeting());
-// console.log(person1.fullname());
-
-// let customer1 = new Customer("Rony", "Chy", "017777778888", "1234");
-// console.log(customer1);
-// console.log(customer1.greeting());
-// console.log(customer1.fullname()); 
-
 // Class(ES6)
 // Class is a template for creating objects
+
+
+// Object 1
 // let person1 ={
 //     firstname: 'Mehedi',
 //     lastname: 'Amin',
 //     dob: '11-12-1999',
-
 //     fullname: function(){
 //         console.log(`${this.firstname} ${this.lastname}`);
 //     }
 // }
 
+// Object 2
 // let person2 ={
 //     firstname: 'Robin',
 //     lastname: 'Amini',
@@ -1001,6 +967,8 @@ console.log(32)*/
 // console.log(person1);
 // console.log(person2);
 
+
+// class teamplate
 // class Person{
 //     constructor(fname,lname,birthday){
 //         this.firstname = fname;
@@ -1025,7 +993,7 @@ console.log(32)*/
 // Class(ES6) 
 // Class is a template for creating objects
 
-// class Person {
+// class Person {}
 //     constructor(fname, lname, birthday) {
 //         this.firstname = fname;
 //         this.lastname = lname;
@@ -1090,3 +1058,70 @@ console.log(32)*/
 // console.log(customer1);
 // console.log(customer1.greeting());
 // console.log(customer1.fullname()); 
+
+
+// class Mycar {
+//     constructor(cname, cmodel, year, month){
+//         this.cname = cname;
+//         this.cmodel = cmodel;
+//         this.year = year;
+//         this.month = month;
+//     }
+
+// }
+
+
+
+// let person1 = new Mycar("CHR","CHR-258","2017","january");
+
+// class Person {
+//     constructor(fname, lname){
+//         this.firstName = fname;
+//         this.lastName = lname;
+//     }
+
+//     greeting(){
+//         return `Hello ${this.firstName} ${this.lastName}`
+//     }
+// }
+
+// class Customer extends Person {
+//     constructor(fname,lname,phone,email,membership){
+//         super(fname,lname)
+
+//         this.phone = phone;
+//         this.email = email;
+//         this.membership = membership;
+//     }
+
+//     WelsomeCustomer(){
+//         return `Customer Full name: ${this.firstName} ${this.lastName}\nphone: ${this.phone}\nemail: ${this.email}\nmembership: ${this.membership}`;
+//     }
+// }
+
+// let person1 = new Customer ("Mehedi","Amin","01758865276","mehedi@gmail.com","yes");
+// console.log(person1.WelsomeCustomer());
+
+// Static Function
+
+// class Person {
+//     constructor(fname, lname) {
+//         this.firstname = fname;
+//         this.lastname = lname;
+//     }
+
+//     greeting() {
+//         console.log(`Hello ${this.firstname} ${this.lastname}!`);
+//     }
+
+//     static test() {
+//         console.log("I am staic!");
+//     }
+// }
+
+// let person1 = new Person("Simanta", "Paul");
+
+// console.log(person1.greeting());
+// console.log(Person.test()); 
+
+
