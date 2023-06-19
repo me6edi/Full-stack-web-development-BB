@@ -51,10 +51,33 @@
 let val;
 
 // Gettting an Element
-val = document.getElementById("dcument-title");
-val = document.getElementById("dcument-title").id;
-val = document.getElementById("dcument-title").className;
-val = document.getElementById("dcument-title").style.background = '#554';
-val = document.getElementById("dcument-title").style.color = '#fff';
-val = document.getElementById("dcument-title").style.padding = '20px';
+val = document.getElementById("document-title");
+val = document.getElementById("document-title").id;
+val = document.getElementById("document-title").className;
+
+
+//Changing style
+val = document.getElementById("document-title").style.background = '#554';
+val = document.getElementById("document-title").style.color = '#fff';
+val = document.getElementById("document-title").style.padding = '20px';
+val = document.getElementById("document-title").style.display = "block";
+
+// Changing content
+
+val = document.getElementById("document-title").textContent = "new title";
+val = document.getElementById("document-title").innerText = "Mehedi Amin";
+val = document.getElementById("document-title").innerHTML = "<i>Mehedi</i>";
+val = document.getElementById("document-title");
+val.innerText = "Ha ha ha ha ha ha ha ha ha ha ha";
+
+// document.querySelector()
+val = document.querySelector("#document-title"); // id
+val = document.querySelector(".title-class");// class
+val = document.querySelector("h3"); // tag
+val = document.querySelector("ol li"); // tag
+val.style.background = 'red';
+val.style.color = "White";
+val = document.querySelector('li:last-child');
+val = document.querySelector("li:nth-child(4)").style.color = "green";
+
 console.log(val);
