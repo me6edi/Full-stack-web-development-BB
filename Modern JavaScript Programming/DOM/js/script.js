@@ -51,33 +51,80 @@
 let val;
 
 // Gettting an Element
-val = document.getElementById("document-title");
-val = document.getElementById("document-title").id;
-val = document.getElementById("document-title").className;
+// val = document.getElementById("document-title");
+// val = document.getElementById("document-title").id;
+// val = document.getElementById("document-title").className;
 
 
 //Changing style
-val = document.getElementById("document-title").style.background = '#554';
-val = document.getElementById("document-title").style.color = '#fff';
-val = document.getElementById("document-title").style.padding = '20px';
-val = document.getElementById("document-title").style.display = "block";
+// val = document.getElementById("document-title").style.background = '#554';
+// val = document.getElementById("document-title").style.color = '#fff';
+// val = document.getElementById("document-title").style.padding = '20px';
+// val = document.getElementById("document-title").style.display = "block";
 
 // Changing content
 
-val = document.getElementById("document-title").textContent = "new title";
-val = document.getElementById("document-title").innerText = "Mehedi Amin";
-val = document.getElementById("document-title").innerHTML = "<i>Mehedi</i>";
-val = document.getElementById("document-title");
-val.innerText = "Ha ha ha ha ha ha ha ha ha ha ha";
+// val = document.getElementById("document-title").textContent = "new title";
+// val = document.getElementById("document-title").innerText = "Mehedi Amin";
+// val = document.getElementById("document-title").innerHTML = "<i>Mehedi</i>";
+// val = document.getElementById("document-title");
+// val.innerText = "Ha ha ha ha ha ha ha ha ha ha ha";
 
 // document.querySelector()
-val = document.querySelector("#document-title"); // id
-val = document.querySelector(".title-class");// class
-val = document.querySelector("h3"); // tag
-val = document.querySelector("ol li"); // tag
-val.style.background = 'red';
-val.style.color = "White";
-val = document.querySelector('li:last-child');
-val = document.querySelector("li:nth-child(4)").style.color = "green";
+// val = document.querySelector("#document-title"); // id
+// val = document.querySelector(".title-class");// class
+// val = document.querySelector("h3"); // tag
+// val = document.querySelector("ol li"); // tag
+// val.style.background = 'red';
+// val.style.color = "White";
+// val = document.querySelector('li:last-child');
+// val = document.querySelector("li:nth-child(4)").style.color = "green";
 
-console.log(val);
+// console.log(val);
+
+
+// Multiselector
+// document.getElementsByClassName()
+
+// let list = document.getElementsByClassName('sample-class');
+// list[0].style.backgroundColor = "red";
+// list[3].style.backgroundColor = "green";
+// list[1].textContent = "Hello, world!";
+// console.log(list[0]);
+
+// document.getElementByTagName();
+// let list = document.getElementsByTagName("li");
+// let list = document.querySelector('ol').getElementsByTagName('li');
+// let lis = Array.from(list);
+// lis.forEach(function(item){
+//     console.log(item);
+// });
+// list.for
+// console.log(list);
+
+// document.querySelectorAll()
+// id = i -> #idName
+// classname -> .className
+// tagname -> noting
+// let mylist = document.querySelectorAll('ul li');
+
+// mylist.forEach(function(item) {
+//     console.log(item);
+// })
+
+// let liOdd = document.querySelectorAll('li:nth-child(odd)');
+// let liEven = document.querySelectorAll('li:nth-child(even)');
+
+// liOdd.forEach(function(item) {
+//     item.style.background = 'grey';
+//     item.style.color = 'white';
+// })
+// console.log(liEven);
+
+// liOdd.forEach(function(item) {
+//     item.style.background = 'Red';
+//     item.style.color = 'white';
+// })
+// console.log(liOdd);
+
+
