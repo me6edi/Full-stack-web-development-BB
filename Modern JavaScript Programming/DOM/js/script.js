@@ -48,7 +48,7 @@
 
 // DOM Selector Single Element
 
-let val;
+// let val;
 
 // Gettting an Element
 // val = document.getElementById("document-title");
@@ -127,4 +127,49 @@ let val;
 // })
 // console.log(liOdd);
 
+// Traversing the DOM 
 
+// let val;
+// let list = document.querySelector('ul');
+// let listitem = document.querySelector('ul li:last-child');
+// val = listitem;
+// // console.log(val);
+
+
+// // Get child Nodes
+
+// val = list;
+// val = list.childNodes;
+// val = list.childNodes[0];
+// val = list.childNodes[1].nodeName;
+// val = list.childNodes[1].nodeType;
+
+// 1 Element
+// 2 Attributes
+// 3 Text Node
+// 4 comments
+// 5 Document Itself
+// 6 Doctype
+
+// val = list.childNodes;
+
+// val = list.children;
+// val = list.children[1];
+// list.children[0].textContent = "Hello, world!";
+// val = list.children[1].children[0];
+// val = list.children[1].children[0].href;
+
+// val = list.firstChild;
+// val = list.firstElementChild;
+// val = list.lastChild;
+// val = list.lastElementChild;
+
+
+// val = listitem;
+// val = listitem.parentElement;
+// val = listitem.parentNode;
+// val = listitem.parentElement.parentElement;
+
+// val = listitem.nextSibling.nextSibling;
+// val = listitem.nextElementSibling;
+// console.log(val);
