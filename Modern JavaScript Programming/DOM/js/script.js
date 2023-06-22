@@ -173,3 +173,44 @@
 // val = listitem.nextSibling.nextSibling;
 // val = listitem.nextElementSibling;
 // console.log(val);
+
+// Adding Element to DOM
+// Create Element
+
+// let OlItem = document.createElement('li');
+
+// // Add Id and Class
+// OlItem.className = 'A new anotherItem'
+
+
+// // Add Attribute
+// OlItem.setAttribute('title', "This is my title")
+// OlItem.appendChild(document.createTextNode("JavaScript"));
+
+// document.querySelector('ol').appendChild(OlItem);
+// console.log(OlItem);
+
+
+// Adding anyvalue
+// let ulItem = document.createElement('li');
+// let link = document.createElement('a');
+// link.appendChild(document.createTextNode('instagram'));
+// link.setAttribute('href', 'http://instagram.com');
+// ulItem.appendChild(link);
+
+// document.querySelector('ul').appendChild(ulItem);
+// console.log(ulItem);
+
+// Replace and remove Eelements
+
+// let newHeading = document.createElement('h1');
+// newHeading.className = ("myClass");
+// console.log(newHeading);
+
+
+// let parent = document.querySelector('.container');
+// console.log(parent);
+
+
+// let oldHeading = document.querySelector('h3');
+// console.log(oldHeading);
