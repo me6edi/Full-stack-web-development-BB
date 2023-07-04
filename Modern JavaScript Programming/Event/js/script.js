@@ -138,3 +138,46 @@
 // }
 
 // ///https://www.w3schools.com/jsref/jsref_obj_error.asp 
+
+
+// Regular expressions
+
+// Regular Expression
+// Pattern Matching Technique
+
+// let re;
+// let str;
+// re = /hello/;
+// re = /Hello/;
+// re = /hello/i; // i = case insensitive
+
+// console.log(re);
+// console.log(re.source);
+
+
+// // exec() - Returns result in an array or null
+// str = "HelLo World";
+// str = "Again Hello World";
+// str = "Hell World";
+// str = "sdsHellosds World";
+// str = "Again Hello World Hello";
+// str = "World";
+// let result = re.exec(str);
+
+// // test() - true/false
+// result = re.test(str);
+// console.log(result);
+
+// // match() - Returns array or null
+// result = str.match(re);
+// console.log(result);
+
+// // search() - Returns index of the first match or -1
+// str = "World";
+// result = str.search(re);
+// console.log(result);
+
+// // replace() - Return new string
+// str = "Again Hello World Hello";
+// let newstr = str.replace(re, "Hi");
+// console.log(newstr); 
