@@ -309,8 +309,6 @@
 
 // Shorthand Characters and Assertions
 
-
-
 // let re;
 // let str;
 // // Literal Character
@@ -320,16 +318,7 @@
 // re = /lo W/i;
 // re = /loW/i;
 
-// // Meta Characters
-// re = /^hello/; // Must start with
-// re = /hello$/; // Must end with
-// re = /world$/;
-// re = /^hello$/; // Must start and end with
-// re = /^h.llo$/; // Matches any one character
-// re = /h.llo/;
-// re = /h*llo/; // 0 or more times
-// re = /he?a?llo/; // Optional
-// re = /hello?/; // escaping
+
 
 // // Character Set using Brackets []
 // re = /h[eai]llo/; // Must be one of them inside brackets
@@ -359,7 +348,7 @@
 // // Bangladeshi Phone Number
 // // total 11 digits
 // re = /^01[0-9]{9}$/;
-// re = /^+8801[0-9]{9}$/;
+// re = /^\+8801[0-9]{9}$/;
 
 // // Shorthand Character Classes
 // re = /w/; // Word Character - alpha numeric or _
@@ -379,16 +368,16 @@
 // re = /x(?!yz)/;
 
 
-// str = "fsdfxyzfdsf";
+// str = "+8801758865276";
 
 
-// console.log(re.exec(str));
-// reTest(re, str);
-// function reTest(re, str) {
-//     if(re.test(str)) {
-//         console.log(`'${str}' matches '${re.source}'`);
-//     }
-//     else {
-//         console.log(`'${str}' doesn't match '${re.source}'`);
-//     }
-// } 
+console.log(re.exec(str));
+reTest(re, str);
+function reTest(re, str) {
+    if(re.test(str)) {
+        console.log(`'${str}' matches '${re.source}'`);
+    }
+    else {
+        console.log(`'${str}' doesn't match '${re.source}'`);
+    }
+} 
