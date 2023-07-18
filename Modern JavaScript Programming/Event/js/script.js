@@ -395,12 +395,40 @@
 
 // // Phone Number
 // // 01717888888 +8801717888888 8801717888888
-// re = /^(+)?(88)?01[0-9]{9}$/;
-// str = "+8801717888888";
+// re = /^(\+)?(88)?01[0-9]{9}$/
+// str = "01717888888";
 
-// // Email Address
-// // bohubrihi8.learn@edu.com.bd
+// console.log(re.test(str));
+
+
+// Email Address
+
 // re = /^([a-zA-Z0-9].?)+[^.]@([a-zA-Z0-9].?)+[^.]$/ ;
-// str = "bohubrihi.learn@edu.com.bd" ;
 
-// console.log(re.test(str)); 
+// str = "bohubrihi.learn@edu.com.bd" ;
+// console.log(re.test(str));
+
+// Gmail 
+// re  = re = /^[a-z0-9]{5,}@gmail\.com$/ ;
+// str = "me6edi@gmail.com";
+// console.log(re.test(str));
+
+// JSON Syntax
+
+// var student = {
+//      name: "Rahin",
+//      age: 26,
+//      hometown: "Dhaka",
+// };
+
+// var student_jason = {
+//     "name": "Rahin","age": "26","hometown": "Dhaka"
+// }
+
+// var student_jason = JSON.stringify(student);
+// console.log(student_jason);
+
+// var studnet_new = JSON.parse(student_jason);
+// console.log(studnet_new);
+
+
