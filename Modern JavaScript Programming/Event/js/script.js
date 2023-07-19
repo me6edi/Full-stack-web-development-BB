@@ -432,3 +432,56 @@
 // console.log(studnet_new);
 
 
+
+// JSON Data Types
+
+// https://jsonlint.com
+// string
+// number
+// object (JSON object)
+// array
+// boolean
+// null
+
+// JSON Doesn't Support undefined, Date, Function
+
+// var person = {
+//     name: "Rahim", // String    
+//     age: 26,    // Number
+//     hometown: "Dhaka",
+//     married: false, // Boolean
+//     dob: "1995-05-12", // Date
+//     test_null: null, // null
+//     test_undefined: undefined, // undefined
+//     greet: function(){ // function
+//         console.log(`Hello ${this.name}`);
+//     }
+// };
+
+// var person_json = JSON.stringify(person)
+// console.log(person_json)
+
+
+// Warning!
+// JSON.stringify() --> JS object to JSON String
+// JSON.parse() -->  JSON String to JS Object
+
+var person1 = {
+    "name": "Rahim",
+    "age": 25,
+    "hometown": "Dhaka",
+    "married": false
+};
+
+var person2 = {
+    name: "Karim",
+    age: 35,
+    hometown: "Chittagong",
+    married: true
+};
+
+// console.log(person2);
+// console.log(person1); 
+var person1_JSON = JSON.stringify(person1);
+var person1_JSON3 = JSON.parse(person1_JSON);
+console.log(person1_JSON3);
