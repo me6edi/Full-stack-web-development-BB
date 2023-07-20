@@ -483,5 +483,5 @@ var person2 = {
 // console.log(person2);
 // console.log(person1); 
 var person1_JSON = JSON.stringify(person1);
-var person1_JSON3 = JSON.parse(person1_JSON);
-console.log(person1_JSON3);
+// var person1_JSON3 = JSON.parse(person1_JSON);
+console.log(person1_JSON);
