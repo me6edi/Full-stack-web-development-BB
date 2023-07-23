@@ -24,6 +24,8 @@ function jsonData(json_obj) {
             console.log(persons[x][y]);
         }
     }
-
 }
 
+
+
+ 
