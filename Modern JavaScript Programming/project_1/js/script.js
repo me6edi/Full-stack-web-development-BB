@@ -41,8 +41,7 @@ function removeTask(e) {
             let ele = e.target.parentElement;
             // console.log(ele);
             ele.remove();
-            removeFromLS( );
-
+            removeFromLS(ele);
         }
     }
 }
@@ -120,7 +119,7 @@ function removeFromLS(taskItem){
     }
 
     let li = taskItem;
-    li.removechild(li.lastChild); // <a>x</a> removes
+    li.removeChild(li.lastChild); // <a>x</a> removes
 
     tasks.forEach((task, index) => {
         if(li.textContent.trim() === task){
