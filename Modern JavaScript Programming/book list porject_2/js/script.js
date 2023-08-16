@@ -14,7 +14,7 @@ class Book {
 
 // UI Class
 class UI {
-    static addToBooklist(book) {
+    addToBooklist(book) {
         let list = document.querySelector('#book-list');
         let row = document.createElement('tr');
         row.innerHTML = `
@@ -24,6 +24,7 @@ class UI {
         <td><a href='#' class="delete">X</a></td>`;
 
         list.appendChild(row);
+        
 
     }
 
@@ -109,23 +110,23 @@ function newBook(e) {
         author = document.querySelector("#author").value,
         isbn = document.querySelector("#isbn").value;
 
-//     if (title === '' || author === '' || isbn === '') {
+    if (title === '' || author === '' || isbn === '') {
 
-//         UI.showAlert("Please fill all the fields!", "error");
-//     } else {
+        UI.showAlert("Please fill all the fields!", "error");
+    } else {
 
         let book = new Book(title, author, isbn);
 
-//         UI.addToBooklist(book);
+        let ui = new UI();
+
+        ui.addToBooklist(book);
 
 //         UI.clearFields();
 
 //         UI.showAlert("Book Added!", "success");
 
 //         Store.addBook(book);
-//     }
-
-    console.log(book);
+    }
 
 
 
