@@ -1,7 +1,6 @@
 // // Get the UI elements
 let form = document.querySelector('#book-form');
-// let booklist = document.querySelector('#book-list');
-
+let booklist = document.querySelector('#book-list');
 
 // Book Class
 class Book {
@@ -14,7 +13,7 @@ class Book {
 
 // UI Class
 class UI {
-    addToBooklist(book) {
+    static addToBooklist(book) {
         let list = document.querySelector('#book-list');
         let row = document.createElement('tr');
         row.innerHTML = `
@@ -24,38 +23,36 @@ class UI {
         <td><a href='#' class="delete">X</a></td>`;
 
         list.appendChild(row);
-        
-
     }
 
-//     static clearFields() {
-//         document.querySelector("#title").value = '';
-//         document.querySelector("#author").value = '';
-//         document.querySelector("#isbn").value = '';
+    static clearFields() {
+        document.querySelector("#title").value = '';
+        document.querySelector("#author").value = '';
+        document.querySelector("#isbn").value = '';
     }
 
-//     static showAlert(message, className) {
-//         let div = document.createElement('div');
-//         div.className = `alert ${className}`;
-//         div.appendChild(document.createTextNode(message));
-//         //console.log(div);
-//         let container = document.querySelector('.container');
-//         let form = document.querySelector('#book-form');
-//         container.insertBefore(div, form);
+    static showAlert(message, className) {
+        let div = document.createElement('div');
+        div.className = `alert ${className}`;
+        div.appendChild(document.createTextNode(message));
+        // //console.log(div);
+        let container = document.querySelector('.container');
+        let form = document.querySelector('#book-form');
+        container.insertBefore(div, form);
 
-//         setTimeout(() => {
-//             document.querySelector('.alert').remove();
-//         }, 3000);
-//     }
+        setTimeout(() => {
+            document.querySelector('.alert').remove();
+        }, 3000);
+    } 
 
-//     static deleteFromBook(target) {
-//         if (target.hasAttribute('href')) {
-//             target.parentElement.parentElement.remove();
-//             Store.removeBook(target.parentElement.previousElementSibling.textContent.trim());
-//             UI.showAlert('Book Removed!', 'success');
-//         }
-//     }
-// }
+    static deleteFromBook(target) {
+        if (target.hasAttribute('href')) {
+            target.parentElement.parentElement.remove();
+            // Store.removeBook(target.parentElement.previousElementSibling.textContent.trim());
+            // UI.showAlert('Book Removed!', 'success');
+        }
+    }
+}
 
 // // Local Storage Class
 // class Store {
@@ -99,7 +96,7 @@ class UI {
 
 // // Add Event Listener
 form.addEventListener('submit', newBook);
-// booklist.addEventListener('click', removeBook);
+booklist.addEventListener('click', removeBook);
 // document.addEventListener('DOMContentLoaded', Store.displayBooks());
 
 
@@ -110,6 +107,7 @@ function newBook(e) {
         author = document.querySelector("#author").value,
         isbn = document.querySelector("#isbn").value;
 
+
     if (title === '' || author === '' || isbn === '') {
 
         UI.showAlert("Please fill all the fields!", "error");
@@ -117,24 +115,22 @@ function newBook(e) {
 
         let book = new Book(title, author, isbn);
 
-        let ui = new UI();
+ 
 
-        ui.addToBooklist(book);
+        UI.addToBooklist(book);
 
-//         UI.clearFields();
+        UI.clearFields();
 
-//         UI.showAlert("Book Added!", "success");
+        UI.showAlert("Book Added!", "success");
 
 //         Store.addBook(book);
     }
 
-
-
-
     e.preventDefault();
 }
 
-// function removeBook(e) {
-//     UI.deleteFromBook(e.target);
-//     e.preventDefault();
-// }
+function removeBook(e) {
+    UI.deleteFromBook(e.target);
+    UI.showAlert("Book Removed!", "error");
+    e.preventDefault();
+}
