@@ -113,11 +113,11 @@
 
 // Object Destructing
 
-let person = {
-    firstName: "Fazle",
-    lastName: "Rahat",
-    dob: '09-27-1995'
-}
+// let person = {
+//     firstName: "Fazle",
+//     lastName: "Rahat",
+//     dob: '09-27-1995'
+// }
 
 // let fname = person.firstName,
 // lname = person.lastName,
@@ -126,8 +126,32 @@ let person = {
 //console.log(fname, lastName, dob);
 
 
-function display({ firstName, lastName, dob }) {
-    console.log(firstName, lastName, dob);
-}
+// function display({ firstName, lastName, dob }) {
+//     console.log(firstName, lastName, dob);
+// }
 
-display(person); 
+// display(person); 
+
+
+ // Spread Operator ...
+//  let str = "Bohubrihi";
+//  let newStr = [...str];
+ 
+ //console.log(newStr);
+ 
+//  let fruit1 = ["Apple", "Pine-apple", "Mango"];
+//  let fruit2 = ["Orange", "Grape"];
+//  let newFruit = "Jackfruit";
+ 
+//  let newArr = [...fruit1, newFruit, ...fruit2];
+ 
+//  //console.log(newArr);
+//  // Spread on Object (ES8)
+//  let person = {
+//      fname: "Simanta",
+//      lname: "Paul"
+//  }
+ 
+//  let newPerson = {...person, dob: "08-26-1995"}
+//  console.log(newPerson);
+
