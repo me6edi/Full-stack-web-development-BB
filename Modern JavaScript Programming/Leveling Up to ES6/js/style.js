@@ -155,3 +155,39 @@
 //  let newPerson = {...person, dob: "08-26-1995"}
 //  console.log(newPerson);
 
+
+// Spread Operator ...
+// let str = "Bohubrihi";
+// let newStr = [...str];
+
+// console.log(newStr);
+
+// let fruit1 = ["Apple", "Pine-apple", "Mango"];
+// let fruit2 = ["Orange", "Grape"];
+// let newFruit = "Jackfruit";
+
+// let newArr = [...fruit1,newFruit, ...fruit2];
+
+// console.log(newArr);
+// Spread on Object (ES8)
+// let person = {
+//     fname: "Simanta",
+//     lname: "Paul"
+// }
+
+// let newPerson = {...person, dob: "08-26-1995"}
+// console.log(newPerson);
+
+// Spread Operator ...
+
+// let numbers = [23, 1, 0, -1];
+
+//console.log(Math.max(...numbers));
+
+// let person = ["Mehedi", "Amin"]
+
+// let test = (fname, lname) => {
+//     console.log(`Hello ${fname} ${lname}`);
+// }
+
+// test(...person); 
