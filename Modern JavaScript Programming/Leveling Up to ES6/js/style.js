@@ -415,4 +415,22 @@
 // }
 
 
-// getJokes().then(jokes => console.log(jokes)); 
+// getJokes().then(jokes => console.log(jokes));  
+
+
+fetch('https://official-joke-api.appspot.com/random_joke')
+    .then(function(response) {return response.json();})
+    .then(function(result) {
+        console.log(result.setup);
+        console.log(result.punchline);
+    }).catch(function(error){
+        console.log(error.message)
+    })
+
+
+fetch("https://dog.ceo/api/breeds/image/random")
+    .then(function(response){return response.json();})
+    .then(function(result){
+       console.log(result.message); 
+    });
+
