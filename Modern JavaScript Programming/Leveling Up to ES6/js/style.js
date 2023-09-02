@@ -418,19 +418,36 @@
 // getJokes().then(jokes => console.log(jokes));  
 
 
-fetch('https://official-joke-api.appspot.com/random_joke')
-    .then(function(response) {return response.json();})
-    .then(function(result) {
-        console.log(result.setup);
-        console.log(result.punchline);
-    }).catch(function(error){
-        console.log(error.message)
-    })
+// fetch('https://official-joke-api.appspot.com/random_joke')
+//     .then(function(response) {return response.json();})
+//     .then(function(result) {
+//         console.log(result.setup);
+//         console.log(result.punchline);
+//     }).catch(function(error){
+//         console.log(error.message)
+//     })
 
 
-fetch("https://dog.ceo/api/breeds/image/random")
-    .then(function(response){return response.json();})
-    .then(function(result){
-       console.log(result.message); 
-    });
+// fetch("https://dog.ceo/api/breeds/image/random")
+//     .then(function(response){return response.json();})
+//     .then(function(result){
+//        console.log(result.message); 
+//     });
 
+fetch('https://api.chucknorris.io/jokes/random')
+    .then(response => response.json())
+    .then(result => console.log(result))
+    
+console.log("Hello world");
+
+
+// async await
+
+// async function getJokes() {
+//     let response = await fetch('http://api.icndb.com/jokes/random/5000');
+//     let data = await response.json();
+//     return data;
+// }
+
+
+// getJokes().then(jokes => console.log(jokes)); 
