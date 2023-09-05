@@ -434,11 +434,11 @@
 //        console.log(result.message); 
 //     });
 
-fetch('https://api.chucknorris.io/jokes/random')
-    .then(response => response.json())
-    .then(result => console.log(result))
+// fetch('https://api.chucknorris.io/jokes/random')
+//     .then(response => response.json())
+//     .then(result => console.log(result))
     
-console.log("Hello world");
+// console.log("Hello world");
 
 
 // async await
@@ -451,3 +451,59 @@ console.log("Hello world");
 
 
 // getJokes().then(jokes => console.log(jokes)); 
+
+
+// Set
+// let mySet = new Set([1, 2, 2, 4, 4]);
+
+// // Add
+// mySet.add("Hello");
+// mySet.add(2);
+// // Delete
+// mySet.delete(4);
+
+// Check
+//console.log(mySet.has(4));
+// Size
+//console.log(mySet.size);
+
+// Iterating Sets
+
+// for (x of mySet.values()) {
+//     console.log(x);
+// }
+
+// let iter = mySet.entries();
+
+// console.log(iter.next());
+
+// console.log(iter.next());
+
+// console.log(iter.next());
+
+// for (let [x] of mySet.entries()) {
+//     console.log(x);
+// }
+
+// let iter = [...mySet.values()];
+
+// //console.log(iter);
+
+// mySet.forEach(value => console.log(value)); 
+
+
+
+
+let arr = [1,2,2,33,33]
+console.log(arr);
+
+let mySet = new Set([1, 2, 2, 4, 4]);
+mySet.add("Hello");
+mySet.add(4);
+mySet.delete(4);
+
+let iter = [...mySet.entries()];
+console.log(iter);
+
+
+mySet.forEach(value => console.log(value));
